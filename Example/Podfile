@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XiaoYu_Login_Example' do
+  pod 'XiaoYu_Login', :path => '../'
+
+  target 'XiaoYu_Login_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
