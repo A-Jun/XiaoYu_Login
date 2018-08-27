@@ -17,9 +17,9 @@ PODS:
   - CTMediator (25)
   - RJProgressHUD (0.1.1)
   - SnapKit (4.0.0)
-  - XiaoYu_Login (0.1.0):
+  - XiaoYu_Login (0.1.3):
     - CTMediator
-    - RJProgressHUD (~> 0.1.1)
+    - RJProgressHUD
     - SnapKit (~> 4.0.0)
     - XiaoYu_Network (~> 0.1.1)
     - XiaoYuKit
@@ -41,7 +41,7 @@ SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   RJProgressHUD: 46f685b535b127d673cb491ef84881da2f628a12
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
-  XiaoYu_Login: c55bcce4ff71e2ca89abc2b8e43d2e468dbd8d97
+  XiaoYu_Login: 50387e9e568cf1ad3a11364e049ce6ffc70b9144
   XiaoYu_Network: 9e96adea25741397101db36648489f5ff035646d
   XiaoYuKit: 8d14898abe9b01e24c666fb1ab31bcefd2a3ed6d
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
