@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import CTMediator
+import XiaoYu_Login
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

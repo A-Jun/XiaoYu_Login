@@ -1,0 +1,6 @@
+framework module XiaoYu_Network {
+  umbrella header "XiaoYu_Network-umbrella.h"
+
+  export *
+  module * { export * }
+}

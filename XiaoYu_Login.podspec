@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XiaoYu_Login'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of XiaoYu_Login.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,15 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'XiaoYu_Login/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'XiaoYu_Login' => ['XiaoYu_Login/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'XiaoYu_Login' => ['XiaoYu_Login/Assets/Image/*','XiaoYu_Login/Assets/Location/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SnapKit','~>4.0.0'
+  s.dependency 'RJProgressHUD', '~> 0.1.1'
+  s.dependency 'XiaoYu_Network','~> 0.1.1'
+   s.dependency 'XiaoYuKit'
+  s.dependency 'CTMediator'
 end

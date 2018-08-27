@@ -1,0 +1,24 @@
+/* 
+  login.strings
+  XiaoYu_V3.0_Refactor
+
+  Created by RJ on 2018/8/9.
+  Copyright © 2018年 coollang. All rights reserved.
+*/
+///图片
+"login_main_logo"       = "login_main_logo_en";
+
+///文字
+
+// ----------------------------------------------------------登录模块
+//页面标题
+"Log in to Coollang"="Masuk";
+"Set Password"="Mengatur kata sandi";
+"Reset Password"="Atur ulang kata sandi";
+"Let's get started"="Daftar akun ponsel";
+"Register"="Daftar akun ponsel";
+"The account has been used"="Akun ini telah terdaftar";
+
+"PrivacyURL"="http://www.coollang.com/appcontent/responsibility?type=40";
+"By signing up,you agree to our " = "Registration means that you agree with our ";
+"Privacy" = "Privacy Regulations ";

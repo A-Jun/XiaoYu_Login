@@ -1,0 +1,45 @@
+{
+  "name": "XiaoYu_Login",
+  "version": "0.1.0",
+  "summary": "A short description of XiaoYu_Login.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/A-Jun/XiaoYu_Login",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "A-Jun": "841348093@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/A-Jun/XiaoYu_Login.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XiaoYu_Login/Classes/**/*",
+  "resource_bundles": {
+    "XiaoYu_Login": [
+      "XiaoYu_Login/Assets/Image/*",
+      "XiaoYu_Login/Assets/Location/*"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+      "~>4.0.0"
+    ],
+    "RJProgressHUD": [
+      "~> 0.1.1"
+    ],
+    "XiaoYu_Network": [
+      "~> 0.1.1"
+    ],
+    "XiaoYuKit": [
+
+    ],
+    "CTMediator": [
+
+    ]
+  }
+}

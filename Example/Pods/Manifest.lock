@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CTMediator (25)
+  - RJProgressHUD (0.1.1)
+  - SnapKit (4.0.0)
+  - XiaoYu_Login (0.1.0):
+    - CTMediator
+    - RJProgressHUD (~> 0.1.1)
+    - SnapKit (~> 4.0.0)
+    - XiaoYu_Network (~> 0.1.1)
+    - XiaoYuKit
+  - XiaoYu_Network (0.1.1):
+    - YTKNetwork (~> 2.0.4)
+  - XiaoYuKit (0.1.7)
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
+
+DEPENDENCIES:
+  - XiaoYu_Login (from `../`)
+
+EXTERNAL SOURCES:
+  XiaoYu_Login:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  RJProgressHUD: 46f685b535b127d673cb491ef84881da2f628a12
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  XiaoYu_Login: c55bcce4ff71e2ca89abc2b8e43d2e468dbd8d97
+  XiaoYu_Network: 9e96adea25741397101db36648489f5ff035646d
+  XiaoYuKit: 8d14898abe9b01e24c666fb1ab31bcefd2a3ed6d
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
+
+PODFILE CHECKSUM: a3daf9ec83ad8a1b74d37eac470028eff0f71c11
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,6 @@
+framework module XiaoYuKit {
+  umbrella header "XiaoYuKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

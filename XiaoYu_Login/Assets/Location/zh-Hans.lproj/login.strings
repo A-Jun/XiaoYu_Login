@@ -1,0 +1,67 @@
+/* 
+  login.strings
+  XiaoYu_V3.0_Refactor
+
+  Created by RJ on 2018/8/9.
+  Copyright © 2018年 coollang. All rights reserved.
+*/
+
+// ----------------------------------------------------------登录模块
+/// 登录首页面
+
+//图片
+"login_main_logo"       = "login_main_logo_cn";
+"login_email_icon"      = "login_register_phone_icon";
+"login_home_facebook_icon"   = "login_wechat_icon";
+//文字
+"Other"             = "其他登录方式";
+"By signing up,you agree to our " = "注册即表示您同意我们的";
+"Privacy" = "隐私条例";
+"PrivacyURL"="http://www.coollang.com/appcontent/responsibility";
+
+/// 其他登录方式
+//图片
+"login_wechat_icon"     = "login_fast" ;
+"login_facebook_icon"   = "login_wechat";
+"login_twitter_icon"    = "login_qq";
+//文字
+"Authorization failure" = "授权失败";
+"Cancel the authorization" = "取消授权";
+"Log in to Coollang"="账号登录";
+"Register"="手机注册";
+"Enter Email Address" = "请输入手机号";
+"Password" = "请输入密码";
+"Log in" = "登录";
+"Register" = "注册";
+"Forget password?" = "忘记密码";
+"or log in with" = "推荐登录";
+"Wechat"            = "快捷登录";
+"Facebook"          = "微信登录";
+"Twitter"           = "QQ登录";
+/// 注册
+// 文字
+"Let's get started"       = "手机账号注册";
+"your@email.com"          = "请输入手机号";
+"your password"           = "请输入验证码";
+"repeat your password"    = "请输入6位以上密码";
+"Join"                    = "注册";
+"I've a Coollang account" = "已有账号？点我登录";
+///重置密码
+//文字
+"Reset Password"            = "找回密码";
+"Please enter the email address associated with your Coollang account" = "请输入您注册时的手机号码，我们将把验证码发到您的手机上";
+" Reset Password "          = "发送验证码";
+///填写个人信息
+"Tell us your habit hand,it can be more accurately identify your swing data"="告诉我们你的习惯手\n可以更精准地识别你的挥拍";
+"We will use your health infomation to give you a more accurate motion data"="我们会根据您的身体资料\n优化您的运动算法";
+"Add avatars and nicknames,make you more popular"="有头有脸，有名有姓\n更受欢迎";
+"You need to upload an avatar"="头像还没有设置哦";
+"You need to fill your nickname"="昵称还没有填写哦";
+"Nickname contains special characters is not allowed"="昵称仅支持汉字、英文大小写字母及数字的组合";
+"Last" = "上一步";
+"Next" = "下一步";
+"Complete" = "完成";
+"Your nickname" = "您的昵称";
+"take a new photo"="拍摄新照片";
+"Select photo from gallery"="从照片库选取";
+"NO" = "取消";

@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'https://github.com/A-Jun/XiaoYuSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'XiaoYu_Login_Example' do
   pod 'XiaoYu_Login', :path => '../'
 
