@@ -17,8 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
-        
-        let nav = CTMediator.loginHomeViewController()
+        let defaultParams :[AnyHashable :Any] = ["defaultKey":"defaultValue",
+                                                 kCTMediatorParamsKeySwiftTargetModuleName:"XiaoYu_Login"]
+        let nav =  CTMediator.sharedInstance().performTarget("Login", action: "ViewController", params: defaultParams, shouldCacheTarget: true) as! UINavigationController
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
         return true
