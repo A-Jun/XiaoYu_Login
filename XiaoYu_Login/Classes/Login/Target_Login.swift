@@ -13,8 +13,7 @@ import UIKit
 class Target_Login: NSObject {
     
     @objc
-    func Action_ViewController(params:[AnyHashable :Any]) -> UINavigationController {
-        print("dsadsadasd")
+    func Action_ViewController(_ params:[AnyHashable :Any]) -> UINavigationController {
         return RJNavigationController(rootViewController: RJLoginHomeViewController())
     }
 }

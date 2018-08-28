@@ -15,7 +15,7 @@ public var defaultParams :[AnyHashable :Any] = ["defaultKey":"defaultValue",
                                                 kCTMediatorParamsKeySwiftTargetModuleName:"XiaoYu_Login"]
 public extension CTMediator {
     
-    public class func loginHomeViewController() -> UINavigationController {
+   @objc public class func loginHomeViewController() -> UINavigationController {
         return  CTMediator.sharedInstance().performTarget("Login", action: "ViewController", params: defaultParams, shouldCacheTarget: true) as! UINavigationController
     }
 }

@@ -81,7 +81,7 @@ class RJLoginHelper: NSObject {
             "settings"      :settings,
             "onStateChanged":callBack
         ]
-        CTMediator().performTarget("Mob", action: "Authorize", params: params, shouldCacheTarget: true)
+        CTMediator.sharedInstance().performTarget("Mob", action: "Authorize", params: params, shouldCacheTarget: true)
         
     }
     class func mobGetVerifyCode(_ methodType:RJMobGetVefifyCodeMethod ,_ phoneNumber: String ,_ zone: String ,_ template: String , _ handler: GetVerifyCodeHandler?) -> Void {
@@ -90,11 +90,11 @@ class RJLoginHelper: NSObject {
                       "zone"       :zone,
                       "template"   :template,
                       "handler":handler ?? ""] as [String : Any]
-        CTMediator().performTarget("Mob", action: "GetVerifyCode", params: params, shouldCacheTarget: true)
+        CTMediator.sharedInstance().performTarget("Mob", action: "GetVerifyCode", params: params, shouldCacheTarget: true)
     }
     //MARK: - Networking
     private class func reuqest( _ params:[AnyHashable:Any]) ->  Void {
-        CTMediator().performTarget("Network", action: "Request", params: params, shouldCacheTarget: true)
+        CTMediator.sharedInstance().performTarget("Network", action: "Request", params: params, shouldCacheTarget: true)
     }
     class func registerByPhone( _ account:String? , _ password:String? , _ passwordVerify:String?,_ callBack:NetworkHandler?) -> Void{
         let helper = RJLoginHelper()
@@ -123,7 +123,7 @@ class RJLoginHelper: NSObject {
         helper.account = account
         helper.password = password
         let params = helper.argument(.QuickLoginByPhone, callBack: callBack)
-        CTMediator().performTarget("Network", action: "Request", params: params, shouldCacheTarget: true)
+        reuqest(params)
     }
     class func ThirdPlatformLogin( _ openId:String? ,_ token:String?, _ type:RJLoginInPlatformType, _ callBack:NetworkHandler?) -> Void {
         let helper = RJLoginHelper()

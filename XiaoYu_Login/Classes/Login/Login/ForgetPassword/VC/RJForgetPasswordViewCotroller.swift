@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 enum RJForetPasswordStep{
     case getPhoneNumber
     case verifyCode
