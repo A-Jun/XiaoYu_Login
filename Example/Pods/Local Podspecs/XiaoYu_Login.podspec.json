@@ -1,7 +1,7 @@
 {
   "name": "XiaoYu_Login",
   "version": "0.1.4",
-  "summary": "A short description of XiaoYu_Login.",
+  "summary": "小羽登录模块",
   "swift_version": "4.1",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/A-Jun/XiaoYu_Login",
