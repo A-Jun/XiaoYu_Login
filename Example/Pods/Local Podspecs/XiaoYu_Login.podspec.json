@@ -1,7 +1,7 @@
 {
   "name": "XiaoYu_Login",
-  "version": "0.1.4",
-  "summary": "小羽登录模块",
+  "version": "0.1.5",
+  "summary": "A short description of XiaoYu_Login.",
   "swift_version": "4.1",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/A-Jun/XiaoYu_Login",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/A-Jun/XiaoYu_Login.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"

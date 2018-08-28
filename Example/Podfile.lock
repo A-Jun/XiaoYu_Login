@@ -15,9 +15,9 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - CTMediator (25)
-  - RJProgressHUD (0.1.1)
+  - RJProgressHUD (0.1.3)
   - SnapKit (4.0.0)
-  - XiaoYu_Login (0.1.4):
+  - XiaoYu_Login (0.1.5):
     - CTMediator
     - RJProgressHUD
     - SnapKit (~> 4.0.0)
@@ -39,9 +39,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
-  RJProgressHUD: 46f685b535b127d673cb491ef84881da2f628a12
+  RJProgressHUD: 23848956e6831a7f070e34527839f169bbc4cb18
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
-  XiaoYu_Login: 61586f34a89f5191e59e885d42a412b5a4e65818
+  XiaoYu_Login: 4f41090dae88927ce24c768d5bb05d7fbecb57e7
   XiaoYu_Network: 9e96adea25741397101db36648489f5ff035646d
   XiaoYuKit: 8d14898abe9b01e24c666fb1ab31bcefd2a3ed6d
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XiaoYu_Login'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of XiaoYu_Login.'
   s.swift_version    = '4.1'
 # This description is used to generate tags and improve search results.
